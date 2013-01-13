@@ -1,0 +1,4 @@
+openshift-elasticsearch
+=======================
+
+openshift-elasticsearch
