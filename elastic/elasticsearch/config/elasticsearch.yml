@@ -150,15 +150,15 @@
 # the locations (a la RAID 0) on a file level, favouring locations with most free
 # space on creation. For example:
 #
-# path.data: /path/to/data1,/path/to/data2
+path.data: ${OPENSHIFT_DATA_DIR}/data
 
 # Path to temporary files:
 #
-# path.work: /path/to/work
+path.work: ${OPENSHIFT_DATA_DIR}/work
 
 # Path to log files:
 #
-# path.logs: /path/to/logs
+path.logs: ${OPENSHIFT_DATA_DIR}/logs
 
 # Path to where plugins are installed:
 #
